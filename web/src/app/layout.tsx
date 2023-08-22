@@ -21,8 +21,8 @@ export default function RootLayout({
         <meta name="author" content="Victor Elias Ross Júnior" />
         <meta name="email" content="vicjun22@gmail.com" />
 
-        <meta name="keywords" content="web, avante.digital, react, next, agencia, agência, marketing, digital, marketing digital, agência de marketing digital" />
         <meta httpEquiv="Content-Language" content="pt-BR" />
+        <meta name="keywords" content="web, avante.digital, react, next, agencia, agência, marketing, digital, marketing digital, agência de marketing digital" />
       </head>
 
       <body className={inter.className}>
