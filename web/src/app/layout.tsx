@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <head>        
+      <head>
         <meta name="author" content="Victor Elias Ross Júnior" />
         <meta name="email" content="vicjun22@gmail.com" />
 
