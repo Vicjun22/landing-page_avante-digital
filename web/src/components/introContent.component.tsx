@@ -1,4 +1,4 @@
-import { ButtonLinkWhatsApp } from "./index";
+import { ButtonLinkWhatsApp } from "./_index";
 import graphic from "../assets/images/grafico-ilustrativo.svg";
 
 import Image from 'next/image'
@@ -6,7 +6,7 @@ import Image from 'next/image'
 export function IntroContent() {
 
     return (
-        <section className="w-full py-12 md:py-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-escuro-com-espirais.svg')] bg-no-repeat bg-contain bg-fixed">
+        <section className="w-full py-12 md:py-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-escuro-com-espirais.svg')] bg-no-repeat bg-cover bg-fixed">
 
             <div className="w-full gap-12 flex flex-col items-center justify-center">
                 <h1 className="w-[70%] h-auto text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#FAFAFA] text-center">

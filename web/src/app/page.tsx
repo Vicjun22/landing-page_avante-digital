@@ -1,4 +1,4 @@
-import { IntroContent, Header } from '@/components'
+import { IntroContent, Header } from '@/components/_index'
 
 export default function Home() {
   return (
