@@ -26,7 +26,9 @@ jobs:
 
       - name: Copy build to docs
         working-directory: ./web
-        run: cp -R out ../docs
+        run: |
+          rm -rf ../docs/*
+          cp -R out/* ../docs
 
       - name: Commit and push changes
         run: |
