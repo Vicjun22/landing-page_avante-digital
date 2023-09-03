@@ -1,4 +1,4 @@
-import { ButtonLinkWhatsApp } from "./_index";
+import { ButtonLinkWhatsApp, QuemSomos } from "./_index";
 import graphic from "../assets/images/grafico-ilustrativo.svg";
 
 import Image from 'next/image'
@@ -41,6 +41,8 @@ export function IntroContent() {
                     </ul>
                 </div>
             </div>
+
+            <QuemSomos />
         </section>
     )
 }
