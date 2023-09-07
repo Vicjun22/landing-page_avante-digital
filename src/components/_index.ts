@@ -4,6 +4,7 @@ export { Content } from './content.component';
 export { IntroContent } from './introContent.component';
 export { QuemSomos } from './quemSomosContent.component';
 export { ComoFunciona } from './comoFuncionaContent.component';
+export { FormularioOnline } from './formularioOnline.component';
 
 export { Colaborators } from './colaborators.component';
 

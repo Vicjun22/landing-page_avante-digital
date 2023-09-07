@@ -10,7 +10,7 @@ import { Colaborators } from './colaborators.component';
 export function ComoFunciona() {
 
     return (
-        <section className="w-full gap-8 pt-12 md:pt-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-gradient-purple.svg')] bg-no-repeat bg-cover">
+        <section className="w-full gap-8 pt-12 md:pt-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-gradient-purple.svg')] bg-no-repeat bg-cover bg-top">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-[#FAFAFA] text-center">
                 COMO <span className="text-[#9652FF]">FUNCIONA</span>?
             </h1>

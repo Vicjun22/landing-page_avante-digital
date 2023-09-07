@@ -1,4 +1,4 @@
-import { Colaborators, ComoFunciona, IntroContent } from "./_index";
+import { Colaborators, ComoFunciona, FormularioOnline, IntroContent } from "./_index";
 
 export function Content() {
 
@@ -6,6 +6,7 @@ export function Content() {
         <div className="w-full h-auto flex flex-col items-center">
             <IntroContent />
             <ComoFunciona />
+            <FormularioOnline />
 
             {/* <div className="w-[70%] gap-10 flex items-center justify-between pt-12 md:pt-16 text-[#FAFAFA]">
                 <Colaborators cargo="Gestor de Tráfego"
