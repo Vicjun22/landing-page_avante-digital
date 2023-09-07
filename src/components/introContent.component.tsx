@@ -1,4 +1,4 @@
-import { ButtonLinkWhatsApp, QuemSomos } from "./_index";
+import { ButtonScrollToForm, QuemSomos } from "./_index";
 import graphic from "../assets/images/grafico-ilustrativo.svg";
 
 import Image from 'next/image'
@@ -6,14 +6,14 @@ import Image from 'next/image'
 export function IntroContent() {
 
     return (
-        <section className="w-full py-12 md:py-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-escuro-com-espirais.svg')] bg-no-repeat bg-cover bg-fixed">
+        <section className="w-full pt-12 md:pt-16 flex flex-col items-center justify-center bg-[url('../assets/backgrounds/bg-escuro-com-espirais.svg')] bg-no-repeat bg-cover md:bg-contain">
 
             <div className="w-full gap-12 flex flex-col items-center justify-center">
                 <h1 className="w-[70%] h-auto text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#FAFAFA] text-center">
                     Uma equipe especializada para <span className="text-[#04FEE9]">impulsionar o crescimento de sua empresa.</span>
                 </h1>
 
-                <ButtonLinkWhatsApp>Agendar uma consultoria</ButtonLinkWhatsApp>
+                <ButtonScrollToForm>Agendar uma consultoria</ButtonScrollToForm>
             </div>
 
             <div className="w-full h-auto pt-12 md:pt-16 flex flex-col items-center">

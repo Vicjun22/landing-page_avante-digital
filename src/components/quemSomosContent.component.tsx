@@ -1,4 +1,4 @@
-import { ButtonLinkWhatsApp } from "./buttonLinkWhatsApp.component";
+import { ButtonScrollToForm } from "./_index";
 
 import rocket from "../assets/images/foguete-e-astronauta.svg";
 
@@ -7,7 +7,7 @@ import Image from 'next/image'
 export function QuemSomos() {
 
     return (
-        <section className="w-[70%] py-12 md:py-16 flex flex-col items-center justify-center text-[#FAFAFA] text-center">
+        <section className="w-[70%] pt-12 md:pt-16 flex flex-col items-center justify-center text-[#FAFAFA] text-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold">
                 O QUE É A <span className="text-[#04FEE9]">AVANTE DIGITAL</span>?
             </h1>
@@ -24,7 +24,7 @@ export function QuemSomos() {
                         <span className="text-[#04FEE9]">destacar</span> seus produtos e serviços de maneira eficaz nas plataformas de mídia social.
                     </p>
 
-                    <ButtonLinkWhatsApp>Quero decolar minhas vendas</ButtonLinkWhatsApp>
+                    <ButtonScrollToForm>Quero decolar minhas vendas</ButtonScrollToForm>
                 </div>
             </div>
         </section>
