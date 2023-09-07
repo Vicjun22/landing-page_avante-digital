@@ -39,7 +39,7 @@ export function ComoFunciona() {
                 </li>
             </ul>
 
-            <div className="w-[70%] gap-10 flex items-center justify-between md:pt-16 text-[#FAFAFA]">
+            <div className="w-[70%] gap-10 flex items-center justify-between py-12 md:py-16 text-[#FAFAFA]">
                 <Colaborators cargo="Social Media"
                     nome="Luana Hoppe"
                     picSide="right"
