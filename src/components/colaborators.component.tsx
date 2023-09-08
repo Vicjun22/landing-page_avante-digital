@@ -23,7 +23,7 @@ export function Colaborators({ cargo, nome, picSide, descricao }: any) {
                             <h2 className="text-xl md:text-2x1 lg:text-3x1 xl:text-3xl font-extrabold italic">{nome}</h2>
                         </div>
 
-                        <p>{descricao}</p>
+                        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">{descricao}</p>
 
                         <div className="w-auto">
                             <ButtonScrollToForm>FALAR COM NOSSA EQUIPE</ButtonScrollToForm>
@@ -42,7 +42,7 @@ export function Colaborators({ cargo, nome, picSide, descricao }: any) {
                             <h2 className="text-xl md:text-2x1 lg:text-3x1 xl:text-3xl font-extrabold italic">{nome}</h2>
                         </div>
 
-                        <p>{descricao}</p>
+                        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">{descricao}</p>
 
                         <div className="w-auto">
                             <ButtonScrollToForm>FALAR COM NOSSA EQUIPE</ButtonScrollToForm>

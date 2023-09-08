@@ -16,29 +16,33 @@ export function ComoFunciona() {
                     COMO <span className="text-[#9652FF]">FUNCIONA</span>?
                 </h1>
 
-                <ul className="w-[70%] gap-10 flex items-center justify-between flex-wrap md:pt-16 text-[#FAFAFA]">
-                    <li className="w-[100%] md:w-[250px] lg:w-[400px] xl:w-[40%] flex flex-col gap-3">
+                <div className="w-[70%] gap-10 flex flex-col lg:flex-row items-center md:pt-16 text-[#FAFAFA]">
+                    <div className="w-full flex flex-col gap-3">
                         <h2 className="text-xl md:text-2x1 lg:text-3x1 xl:text-3xl font-extrabold flex items-center gap-3"><Image src={lupa} alt='lupa' />Análise</h2>
-                        <p>
+                        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">
                             Iniciamos com uma avaliação de suas plataformas, identificando áreas que podem ser aprimoradas para melhor alinhamento com os objetivos do seu empreendimento.
                         </p>
-                    </li>
-                    <li className="w-[100%] md:w-[250px] lg:w-[400px] xl:w-[45%] flex flex-col gap-3">
+                    </div>
+
+                    <div className="w-full flex flex-col gap-3">
                         <h2 className="text-xl md:text-2x1 lg:text-3x1 xl:text-3xl font-extrabold flex items-center gap-3"><Image src={proposta} alt='proposta' />Proposta</h2>
-                        <p>
+                        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">
                             Após a analise do seu negócio, iremos lhe apresentar a estratégia ideal para a sua empresa e para o ramo do seu empreendimento.
                         </p>
-                    </li>
-                    <li className="w-[100%] md:w-[250px] lg:w-[400px] xl:w-[45%] flex flex-col gap-3">
+                    </div>
+                </div>
+
+                <div className="w-[70%] gap-10 flex flex-col-reverse lg:flex-row items-center md:pt-16 text-[#FAFAFA]">
+                    <div className="w-full flex flex-col gap-3 items-center">
                         <Image src={avanteDigital} alt='Avante Digital' title='Avante Digital' />
-                    </li>
-                    <li className="w-[100%] md:w-[250px] lg:w-[400px] xl:w-[45%] flex flex-col gap-3">
+                    </div>
+                    <div className="w-full flex flex-col gap-3">
                         <h2 className="text-xl md:text-2x1 lg:text-3x1 xl:text-3xl font-extrabold flex items-center gap-3"><Image src={check} alt='check' />Tráfego Pago</h2>
-                        <p>
+                        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">
                             Após a confirmação e aprovação do conteúdo, procedemos com a publicação. Em seguida, executamos estratégias de tráfego pago para promover através das plataformas de rede.
                         </p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
             
 

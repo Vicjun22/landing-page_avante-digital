@@ -1,4 +1,4 @@
-import { Clientes, ComoFunciona, FormularioOnline, IntroContent } from "./_index";
+import { Clientes, ComoFunciona, ComoContratar, FormularioOnline, IntroContent, Footer } from "./_index";
 
 export function Content() {
 
@@ -8,6 +8,8 @@ export function Content() {
             <ComoFunciona />
             <FormularioOnline />
             <Clientes />
+            <ComoContratar />
+            <Footer />
         </div>
     )
 }

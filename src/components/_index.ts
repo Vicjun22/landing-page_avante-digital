@@ -6,6 +6,8 @@ export { QuemSomos } from './quemSomosContent.component';
 export { ComoFunciona } from './comoFuncionaContent.component';
 export { FormularioOnline } from './formularioOnline.component';
 export { Clientes } from './clientes.component';
+export { ComoContratar } from './comoContratar.component';
+export { Footer } from './footer.component';
 
 export { Colaborators } from './colaborators.component';
 

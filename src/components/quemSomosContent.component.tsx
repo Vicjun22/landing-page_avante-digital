@@ -19,7 +19,7 @@ export function QuemSomos() {
                         priority />
 
                 <div className="w-auto h-auto gap-5 flex flex-col items-center justify-between">
-                    <p>
+                    <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal">
                         Somos uma agência especializada em marketing e gestão de tráfego pago. Nosso foco é impulsionar o seu negócio e {' '}
                         <span className="text-[#04FEE9]">destacar</span> seus produtos e serviços de maneira eficaz nas plataformas de mídia social.
                     </p>
