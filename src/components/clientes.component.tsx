@@ -19,7 +19,7 @@ export function Clientes() {
 
     return (
         <section className="w-full flex flex-col items-center justify-center">
-            <div className="w-full flex flex-col items-center bg-gradient-to-b from-[#9652FF] to-transparent">
+            <div className="w-full flex flex-col items-center bg-gradient-to-b from-[#04FEE9] to-transparent">
                 <h1 className="w-[70%] py-[60px] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-[#FAFAFA] text-center">
                     EMPRESAS QUE CONFIAM NA <span className="text-[#04FEE9]">AVANTE DIGITAL</span>
                 </h1>

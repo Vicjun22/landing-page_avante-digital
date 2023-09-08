@@ -12,4 +12,4 @@ export { Footer } from './footer.component';
 export { Colaborators } from './colaborators.component';
 
 export { ButtonLinkWhatsApp } from './buttonLinkWhatsApp.component';
-export { ButtonScrollToForm } from './buttonScrollToFrom.component';
+export { ButtonToForm as ButtonScrollToForm } from './buttonToFrom.component';
