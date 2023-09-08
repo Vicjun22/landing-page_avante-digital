@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Avante Digital',
-  description: '',
+  description: 'Uma equipe especializada para impulsionar o crescimento de sua empresa.',
 }
 
 export default function RootLayout({
@@ -23,6 +23,7 @@ export default function RootLayout({
 
         <meta httpEquiv="Content-Language" content="pt-BR" />
         <meta name="keywords" content="web, avante.digital, react, next, agencia, agência, marketing, digital, marketing digital, agência de marketing digital" />
+        <link rel="icon" type="image/jpeg" href='/avante-digital.jpg' sizes="any" />
       </head>
 
       <body className={inter.className}>

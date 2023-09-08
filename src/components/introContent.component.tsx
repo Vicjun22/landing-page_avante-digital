@@ -16,8 +16,8 @@ export function IntroContent() {
                 <ButtonScrollToForm>Agendar uma consultoria</ButtonScrollToForm>
             </div>
 
-            <div className="w-full h-auto pt-12 md:pt-16 flex flex-col items-center">
-                <div className="w-[70%] h-auto flex flex-col md:flex-row items-center">
+            <div className="w-full h-auto pt-12 md:pt-16 flex flex-col items-center justify-center">
+                <div className="w-[70%] h-auto flex flex-col md:flex-row items-center justify-evenly">
                     <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-[#FAFAFA] text-center">
                         VOCÊ QUER AUMENTAR SEU <span className="text-[#9652FF]">FATURAMENTO?</span>
                     </h1>
