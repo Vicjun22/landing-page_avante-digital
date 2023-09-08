@@ -21,8 +21,8 @@ export function FormularioOnline() {
             </div>
 
             <iframe src="https://oogsewrf5a4.typeform.com/to/tgel8f9j?typeform-source=www.encurtador.dev"
+                id="iframeForm"
                 title="Formulário"
-                frameBorder="0"
                 width="100%"
                 height="500px" />
         </section>
