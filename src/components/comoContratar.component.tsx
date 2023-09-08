@@ -1,4 +1,4 @@
-import { ButtonLinkWhatsApp } from "./_index";
+import { ButtonScrollToForm } from "./_index";
 
 export function ComoContratar() {
 
@@ -13,7 +13,7 @@ export function ComoContratar() {
                     Muito simples, basta clicar no botão abaixo e preencher o formuláriopara que nossa equipe de especialistas entre em contato com você.
                 </p>
 
-                <ButtonLinkWhatsApp>ENTRAR EM CONTATO COM A AVANTE</ButtonLinkWhatsApp>
+                <ButtonScrollToForm>ENTRAR EM CONTATO COM A AVANTE</ButtonScrollToForm>
             </div>
         </section>
     )
